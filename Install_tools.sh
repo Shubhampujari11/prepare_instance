@@ -1,6 +1,7 @@
 #!/bin/bash
 
 msg=`date`
+
 echo -e "$msg Intsalling update if any.....\n"
 sleep 3
 yum install update -y
